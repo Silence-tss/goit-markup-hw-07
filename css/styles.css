@@ -463,9 +463,6 @@ img {
     /* margin-left: 80px; */
     align-self: center;
     margin-top: 72px;
-
-
-
 }
 
 .footer-social-list {
@@ -699,7 +696,6 @@ img {
 .customers-item {
     /* width: calc((100% - 120px) / 6); */
     width: calc((100% - 16px) / 2);
-
 }
 
 .customers-link {
@@ -1087,10 +1083,12 @@ margin-bottom: 8px;
 
 }
 
-@media screen and (min-width: 1140) {
+@media screen and (min-width: 1140px) {
     .container {
         width: 1158px;
     }
+
+    /* BANNER */
 
     .hero {
         max-width: 1440px;
@@ -1098,5 +1096,126 @@ margin-bottom: 8px;
         padding-bottom: 188px;
     }
 
+    .hero-title {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 48px;
+    }
+
+    /* /BANNER */
+
+
+    /* ADVANTAGES */
+
+    .advantages-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .advantages {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .advantages-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: left;
+
+    }
+
+    .advantages-item {
+        width: calc((100% - 72px) / 4)
+    }
     
+    .advantages-box {
+        display: flex;
+        background-color: var(--cloud);
+        min-height: 112px;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* /ADVANTAGES */
+
+    /* TEAM */
+
+    .team {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+    
+    .team-list {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    
+    .team-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    /* /TEAM */
+
+    /* Customers */
+
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .customers-item {
+        width: calc((100% - 120px) / 6);
+    }
+
+    /* /Customers */
+
+    /* FOOTER */
+
+    .footer-column-1 {
+        max-width: 264px;
+        margin-right: 120px;
+        margin-bottom: 0;
+    }
+
+    .footer-column-subscribe {
+        max-width: 453px;
+        margin-left: 80px;
+        margin-top: 0;
+    }
+
+    .footer-container {
+        flex-direction: row;
+    }
+
+    .form-footer-subscribe {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    
+        flex-direction: row;
+    }
+
+
+
+    /* /FOOTER */
+
+
+
+
+
+
 }
