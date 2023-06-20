@@ -527,8 +527,6 @@ img {
     text-transform: uppercase;
     color: var(--iris);
     margin-bottom: 16px;
-
-
 }
 
 .footer-color {
@@ -1185,8 +1183,8 @@ margin-bottom: 8px;
 
 }
 
-/* 1140+ */
-@media screen and (min-width: 1140px) {
+/* 1158+ */
+@media screen and (min-width: 1158px) {
     .container {
         width: 1158px;
     }
